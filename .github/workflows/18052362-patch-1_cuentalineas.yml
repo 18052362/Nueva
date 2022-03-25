@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'CuentaLineas'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F4D32A2C05342B993110FBF2FBACB0C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_12355A72737141C980D6FD02ED8ED50A }}
           package: '*.jar'
