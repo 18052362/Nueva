@@ -30,7 +30,7 @@ env:
 
 jobs:
   build:
-    runs-on: linux
+    runs-on: Linux
     steps:
     - uses: actions/checkout@v2
 
