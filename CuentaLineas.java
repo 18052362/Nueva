@@ -1,3 +1,8 @@
+
+
+
+
+
 import java.util.Scanner;
  
 
@@ -248,3 +253,19 @@ public class Acertijo {
 				boolean aa = panduan(ar2, arr2);
 				if (aa == true) {
 					System.out.println("right");
+					jieshu();
+				}
+				else {
+					yidong(ar2,q+1,pan);
+					pan=c;
+					ar2=xiayi(ar2);		// Llamar a la función de restauración de movimiento hacia abajo
+					System.out.println("reducción:");
+					shuchu(ar2);
+					System.out.println(" ");
+				}
+			
+			}
+
+		}
+	}
+}
