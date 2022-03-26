@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: Linux
+    runs-on: linux
 
     steps:
     - uses: actions/checkout@v2
