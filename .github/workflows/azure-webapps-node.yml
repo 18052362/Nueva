@@ -20,7 +20,7 @@
 on:
   push:
     branches:
-      - Nueva
+      - main
   workflow_dispatch:
 
 env:
@@ -30,7 +30,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: linux
     steps:
     - uses: actions/checkout@v2
 
@@ -53,7 +53,7 @@ jobs:
         path: .
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: linux
     needs: build
     environment:
       name: 'Development'
